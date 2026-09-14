@@ -1,0 +1,50 @@
+# Env / secrets
+.env
+.env.local
+*.pem
+*.key
+secrets/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+bin/
+tmp/
+
+# Next.js
+node_modules/
+.next/
+out/
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+
+# k6 outputs
+*.csv
+*.json.gz
+loadgen-results/
